@@ -23,7 +23,7 @@ url = "https://support.zendesk.com/api/v2/uploads.json"
 filename_param = "filename"
 content_type = "application/octet-stream"
 # dot-separated path into the response JSON
-response_url_path = "upload.attachments.0.mapped_content_url"
+response_url_path = "upload.attachment.mapped_content_url"
 response_error_path = "error"
 
 [filename]
