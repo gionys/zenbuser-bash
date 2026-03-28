@@ -1,4 +1,4 @@
-# zenbuser
+# zen(a)buser
 
 Screenshot and upload tool for Linux. Takes a screenshot, uploads it to a Zendesk-based CDN, and copies the URL to your clipboard.
 
