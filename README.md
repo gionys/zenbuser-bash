@@ -10,6 +10,10 @@ Screenshot and upload tool for Linux. Takes a screenshot, uploads it to a Zendes
 - `notify-send` (notifications)
 - `file` (MIME type validation)
 
+## See it in action
+
+![preview](preview.gif)
+
 ## Installation
 
 ```sh
