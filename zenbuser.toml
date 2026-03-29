@@ -7,7 +7,6 @@ temp_dir = "/tmp"
 allowed_mime_types = ["image/png", "image/jpeg"]
 
 [upload]
-# Available endpoints, uncomment to switch:
 # url = "https://support.2k.com/api/v2/uploads.json"
 # url = "https://help.abc.net.au/api/v2/uploads.json"
 # url = "https://burgerking.zendesk.com/api/v2/uploads.json"
@@ -32,6 +31,7 @@ extension = "png"
 random_bytes = 12
 
 [clipboard]
+# tool = "xclip -selection clipboard
 tool = "wl-copy"
 args = []
 # pipe URL via stdin instead of passing as an argument
