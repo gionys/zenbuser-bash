@@ -31,7 +31,7 @@ extension = "png"
 random_bytes = 12
 
 [clipboard]
-# tool = "xclip -selection clipboard
+# tool = "xclip -selection clipboard"
 tool = "wl-copy"
 args = []
 # pipe URL via stdin instead of passing as an argument
