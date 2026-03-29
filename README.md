@@ -1,7 +1,8 @@
-# zen(a)buser
+# zen(a)buser-bash
 
 takes a screenshot, uploads it to a zendesk-based CDN, copies the URL to your clipboard.
 
+(fork of [zenbuser](https://github.com/gur0v/zenbuser) written in bash.)
 ![preview](preview.gif)
 
 ## dependencies
@@ -11,12 +12,15 @@ takes a screenshot, uploads it to a zendesk-based CDN, copies the URL to your cl
 - `xclip` / `xsel` / `wl-copy`
 - `notify-send`
 - `file`
+- `xxd`
+- `python3`
+- `bash`
 
 ## installation
 
 ```sh
-cargo build --release
-cp target/release/zenbuser ~/.local/bin/
+chmod +x ./zenbuser.sh
+mv ./zenbuser.sh ~/.local/bin/zenbuser
 ```
 
 ## usage
