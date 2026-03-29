@@ -4,8 +4,6 @@ takes a screenshot, uploads it to a zendesk-based CDN, copies the URL to your cl
 
 (fork of [zenbuser](https://github.com/gur0v/zenbuser) written in bash.)
 
-![preview](preview.gif)
-
 ## dependencies
 
 - [flameshot](https://flameshot.org/) or any other screenshot tool
